@@ -1,0 +1,46 @@
+CRITICAL - 2022-12-01 18:26:11 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH/Models/ClientModel.php on line 16.
+ 1 APPPATH/Models/ClientModel.php(16): number_format('ROOTPATH/public')
+ 2 APPPATH/Controllers/Admin/Client.php(66): App\Models\ClientModel->getClientsFor('ROOTPATH/public')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->searchClient()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 18:26:20 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH/Models/ClientModel.php on line 16.
+ 1 APPPATH/Models/ClientModel.php(16): number_format('Rosinei')
+ 2 APPPATH/Controllers/Admin/Client.php(66): App\Models\ClientModel->getClientsFor('Rosinei')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->searchClient()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 18:52:29 --> Undefined property: App\Controllers\Admin\Client::$ClientModel
+in APPPATH/Controllers/Admin/Client.php on line 74.
+ 1 APPPATH/Controllers/Admin/Client.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Client::$ClientModel', 'APPPATH/Controllers/Admin/Client.php', 74)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->getClientsJs()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 18:53:17 --> Undefined property: App\Controllers\Admin\Client::$ClientModel
+in APPPATH/Controllers/Admin/Client.php on line 74.
+ 1 APPPATH/Controllers/Admin/Client.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Client::$ClientModel', 'APPPATH/Controllers/Admin/Client.php', 74)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->getClientsJs()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 18:56:40 --> Call to undefined method App\Models\ClientModel::json_encode
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Admin/Client.php(75): CodeIgniter\Model->__call('json_encode', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->getClientsJs()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 19:06:56 --> Invalid file: {"arrayClients":[{"idClient":"2","name":"Nome do Cliente 2","phone":"+5551987654321","email":"email2@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"3","name":"Nome do Cliente 3","phone":"+5551987654321","email":"email3@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"4","name":"Nome do Cliente 4","phone":"+5551987654321","email":"email4@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"5","name":"Nome do Cliente 6","phone":"+5551987654321","email":"email5@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"8","name":"Rosinei da silveira","phone":"51982135994","email":"rosinei.s@hotmail.com","address":"Rua general Os\u00f3rio, 5383, Casa"}]}
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('{"arrayClients":[{"idClient":"2","name":"Nome do Cliente 2","phone":"+5551987654321","email":"email2@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"3","name":"Nome do Cliente 3","phone":"+5551987654321","email":"email3@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"4","name":"Nome do Cliente 4","phone":"+5551987654321","email":"email4@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"5","name":"Nome do Cliente 6","phone":"+5551987654321","email":"email5@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"8","name":"Rosinei da silveira","phone":"51982135994","email":"rosinei.s@hotmail.com","address":"Rua general Os\\u00f3rio, 5383, Casa"}]}')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('{"arrayClients":[{"idClient":"2","name":"Nome do Cliente 2","phone":"+5551987654321","email":"email2@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"3","name":"Nome do Cliente 3","phone":"+5551987654321","email":"email3@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"4","name":"Nome do Cliente 4","phone":"+5551987654321","email":"email4@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"5","name":"Nome do Cliente 6","phone":"+5551987654321","email":"email5@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"8","name":"Rosinei da silveira","phone":"51982135994","email":"rosinei.s@hotmail.com","address":"Rua general Os\\u00f3rio, 5383, Casa"}]}', [], true)
+ 3 APPPATH/Controllers/Admin/Client.php(78): view('{"arrayClients":[{"idClient":"2","name":"Nome do Cliente 2","phone":"+5551987654321","email":"email2@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"3","name":"Nome do Cliente 3","phone":"+5551987654321","email":"email3@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"4","name":"Nome do Cliente 4","phone":"+5551987654321","email":"email4@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"5","name":"Nome do Cliente 6","phone":"+5551987654321","email":"email5@teste.com","address":"Rua da Ulbra, 1900. Torres -RS"},{"idClient":"8","name":"Rosinei da silveira","phone":"51982135994","email":"rosinei.s@hotmail.com","address":"Rua general Os\\u00f3rio, 5383, Casa"}]}')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->getClientsJs()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

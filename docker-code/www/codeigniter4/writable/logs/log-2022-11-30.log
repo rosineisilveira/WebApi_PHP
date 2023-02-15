@@ -1,0 +1,69 @@
+CRITICAL - 2022-11-30 18:17:19 --> Undefined variable $client
+in APPPATH/Views/admin/client/listClients.php on line 4.
+ 1 APPPATH/Views/admin/client/listClients.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $client', 'APPPATH/Views/admin/client/listClients.php', 4)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/client/listClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/client/listClients', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(17): view('admin/client/listClients', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClients()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 18:21:58 --> Undefined variable $client
+in APPPATH/Views/admin/client/listClients.php on line 4.
+ 1 APPPATH/Views/admin/client/listClients.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $client', 'APPPATH/Views/admin/client/listClients.php', 4)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/client/listClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/client/listClients', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(17): view('admin/client/listClients', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClients()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 18:41:46 --> Too few arguments to function App\Controllers\Admin\Client::getClientsFor(), 0 passed in /var/www/html/codeigniter4/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Admin/Client.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->getClientsFor()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:08:35 --> Call to a member function post() on null
+in APPPATH/Models/ClientModel.php on line 15.
+ 1 APPPATH/Controllers/Admin/Client.php(70): App\Models\ClientModel->getClientsFor([...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->searchClient()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:13:16 --> Call to a member function post() on null
+in APPPATH/Models/ClientModel.php on line 15.
+ 1 APPPATH/Controllers/Admin/Client.php(66): App\Models\ClientModel->getClientsFor([...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->searchClient()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:20:45 --> Call to a member function getVar() on null
+in APPPATH/Models/ClientModel.php on line 15.
+ 1 APPPATH/Controllers/Admin/Client.php(66): App\Models\ClientModel->getClientsFor([...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->searchClient()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:23:00 --> Too few arguments to function App\Controllers\Admin\Client::searchClient(), 0 passed in /var/www/html/codeigniter4/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Admin/Client.php on line 62.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->searchClient()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 20:28:14 --> Call to a member function post() on null
+in APPPATH/Models/ClientModel.php on line 15.
+ 1 APPPATH/Controllers/Admin/Client.php(66): App\Models\ClientModel->getClientsFor([...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->searchClient()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 20:36:30 --> Undefined property: App\Controllers\Admin\Client::$input
+in APPPATH/Controllers/Admin/Client.php on line 64.
+ 1 APPPATH/Controllers/Admin/Client.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Client::$input', 'APPPATH/Controllers/Admin/Client.php', 64)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->searchClient()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

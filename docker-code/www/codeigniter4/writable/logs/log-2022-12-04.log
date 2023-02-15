@@ -1,0 +1,33 @@
+CRITICAL - 2022-12-04 19:51:43 --> Undefined variable $error
+in APPPATH/Views/admin/client/insertClient.php on line 3.
+ 1 APPPATH/Views/admin/client/insertClient.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'APPPATH/Views/admin/client/insertClient.php', 3)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/client/insertClient.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/client/insertClient', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(23): view('admin/client/insertClient')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->insertClient()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 19:54:47 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH/Views/admin/client/insertClient.php on line 3.
+ 1 APPPATH/Views/admin/client/insertClient.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH/Views/admin/client/insertClient.php', 3)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/client/insertClient.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/client/insertClient', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(23): view('admin/client/insertClient')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->insertClient()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 19:56:37 --> Undefined variable $error
+in APPPATH/Views/admin/client/insertClient.php on line 2.
+ 1 APPPATH/Views/admin/client/insertClient.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'APPPATH/Views/admin/client/insertClient.php', 2)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/client/insertClient.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/client/insertClient', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(23): view('admin/client/insertClient')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->insertClient()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

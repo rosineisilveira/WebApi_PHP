@@ -1,0 +1,28 @@
+CRITICAL - 2022-12-03 18:18:12 --> Undefined property: App\Controllers\Admin\Client::$session
+in APPPATH/Controllers/Admin/Client.php on line 36.
+ 1 APPPATH/Controllers/Admin/Client.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Client::$session', 'APPPATH/Controllers/Admin/Client.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->insertClientAction()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 18:27:04 --> Undefined property: App\Controllers\Admin\Client::$load
+in APPPATH/Controllers/Admin/Client.php on line 27.
+ 1 APPPATH/Controllers/Admin/Client.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Client::$load', 'APPPATH/Controllers/Admin/Client.php', 27)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->insertClientAction()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 18:28:59 --> Undefined property: App\Controllers\Admin\Client::$load
+in APPPATH/Controllers/Admin/Client.php on line 27.
+ 1 APPPATH/Controllers/Admin/Client.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Client::$load', 'APPPATH/Controllers/Admin/Client.php', 27)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->insertClientAction()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 19:10:08 --> Undefined property: App\Controllers\Admin\Client::$load
+in APPPATH/Controllers/Admin/Client.php on line 27.
+ 1 APPPATH/Controllers/Admin/Client.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Client::$load', 'APPPATH/Controllers/Admin/Client.php', 27)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->insertClientAction()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
